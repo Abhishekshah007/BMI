@@ -1,0 +1,39 @@
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(71, 65, 5);
+    font-size: 26px;
+
+}
+
+
+
+
+.main {
+
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.tutorial {
+
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: indianred;
+
+
+}
+
+span {
+    line-height: 2px;
+    font-size: 26px;
+    color: black;
+    padding-right: 10px;
+}
+
+/* check bmi */

@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Auth</title>
+    <link rel="stylesheet" href="../css files\silo.css" />
+    <link rel="stylesheet" href="../css files\instyle.css" />
+    <link rel="stylesheet" href="../css files/checkbmi.css">
+    <script src="../js files\siso.js"></script>
+    <script src="../js files/db.js"></script>
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="../img/bmi.jpg" />
+        <a href="./sign-up.html" style="margin-right:30px ;">Sign Up</a>
+    </div>
+    <!-- <div class="navbar">
+        <div class="menu">
+            <nav class="links">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./checkBmi.html">Check BMI</a></li>
+                    <li><a href="./dietPlan.html">Diet Plan</a></li>
+                    <li><a href="./compare.html">Compare</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> -->
+
+    <div id="awesome" class="panel">
+        <form action="index.html">
+
+            <h3>Sign-in</h3>
+
+            <fieldset>
+
+                <label for="mail">Email:</label>
+                <input type="email" id="email" name="user_email" required>
+                <label for="mail">Password:</label>
+                <input type="password" id="mail" name="user_email">
+                <p><a href="forget.html">Forget credential ?</a></p>
+                <button id="s_btn" type="submit">Sign in</button>
+
+            </fieldset>
+        </form>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBYz1BlrUnAzpyGyOtZCgvVc557gqOWH5M",
+            authDomain: "checkbmi-d4d03.firebaseapp.com",
+            databaseURL: "https://checkbmi-d4d03.firebaseio.com",
+            projectId: "checkbmi-d4d03",
+            storageBucket: "checkbmi-d4d03.appspot.com",
+            messagingSenderId: "249575394956",
+            appId: "1:249575394956:web:58ea13006a4263bdb6f5a9"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>

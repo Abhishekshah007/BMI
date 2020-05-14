@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <title>Auth</title>
+  <link rel="stylesheet" href="../css files\silo.css" />
+  <link rel="stylesheet" href="../css files\instyle.css" />
+  <link rel="stylesheet" href="../css files/checkbmi.css">
+  <script src="../js files\siso.js"></script>
+  <!-- <script src="../js files/db.js"></script> -->
+</head>
+
+<body>
+  <div class="logo"><img src="../img/bmi.jpg" /><a href="./sign-in.html" style="margin-right:30px ;">Sign In</a></div>
+  <div id="welcome" class="panel">
+    <form action="index.html">
+      <h1>Sign Up</h1>
+      <fieldset>
+        <legend>Your basic info</legend>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="user_name">
+        <label for="name">Last Name:</label>
+        <input type="text" id="name" name="user_name">
+        <label>Age:</label>
+        <input type="number" id="age" aria-placeholder="Age"></input>
+      </fieldset>
+      <label for="mail">Email:</label>
+      <input type="email" id="email" name="user_email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user_password" required></fieldset>
+      <button id="lbtn" type="submit">
+        <a href="index.html">Sign Up</a>
+      </button>
+      <button class="button" type="button" id="login"><a href="sign-in.html">Sign in </a></button>
+    </form>
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use https:
+      //firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script> // Your web app's Firebase configuration
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyBYz1BlrUnAzpyGyOtZCgvVc557gqOWH5M",
+      authDomain: "checkbmi-d4d03.firebaseapp.com",
+      databaseURL: "https://checkbmi-d4d03.firebaseio.com",
+      projectId: "checkbmi-d4d03",
+      storageBucket: "checkbmi-d4d03.appspot.com",
+      messagingSenderId: "249575394956",
+      appId: "1:249575394956:web:58ea13006a4263bdb6f5a9"
+    }
+
+      ;
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</body>
+
+</html>
